@@ -1,0 +1,105 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+
+body {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    background-color: #1B244A;
+    border: 3px solid #EEEEEE;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.teams {
+    margin: 68px 0 21px 0;
+    font-size: 40px;
+}
+
+#home-site {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#guest-site {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score {
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    margin: 0;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+
+.border-num {
+    border: 2px solid #9AABD8;
+    border-radius: 3px;
+    width: 45px;
+    height: 45px;
+    background-color: #1B244A;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #EEEEEE;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.border-num:hover {
+    background-color: #1a1f36;
+}
+
+.border-con {
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 69px;
+    
+}
+
+#reset-btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 45px;
+    width: 60px;
+    background-color: #1B244A;
+    border: 3px solid #9AABD8;
+    border-radius: 3px;
+    color: #EEEEEE;
+    font-size: 15px;
+    padding: 25px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reset-container {
+    display: flex;
+    align-items: center;
+}
+
+#reset-btn:hover {
+    background-color: #1a1f36;
+}
